@@ -1,0 +1,22 @@
+{
+  "name": "csvtojson",
+  "version": "1.0.0",
+  "description": "converting csv file to json",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "csv",
+    "node",
+    "json",
+    "convertor"
+  ],
+  "author": "abhilash",
+  "license": "ISC",
+  "dependencies": {
+    "csvjson": "^5.1.0",
+    "uuid": "3.3.2"
+  }
+}
